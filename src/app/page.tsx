@@ -2,100 +2,228 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="flex flex-col items-center">
+      <header className="relative h-[45vh] w-full">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
+          className="object-cover"
+          src="/pexels-olly-3761504.jpg"
+          alt="Paisagem com céu azul e árvores"
+          layout="fill"
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+      </header>
+      <main className="flex flex-col max-w-[850px]">
+        <div className="flex flex-col items-center pl-5 pr-5 mt-1 mb-1">
+          <h1 className="text-2xl font-bold">5 Ideias Simples e Práticas para Ganhar Dinheiro Online</h1>
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <p>
+              Com o avanço da tecnologia e o crescimento da internet, você pode transformar suas habilidades e tempo em fontes de 
+              renda online, sem precisar sair de casa. Este guia foi pensado para te ajudar a dar os primeiros passos e descobrir formas 
+              acessíveis de ganhar dinheiro, mesmo que você seja iniciante.
+            </p>
+            <p className="mt-1 mb-2">
+              Seja para criar uma renda extra ou construir um negócio próprio, confira estas <b>5 ideias simples e eficazes</b> 
+              para começar a ganhar dinheiro online hoje mesmo!
+            </p>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2" style={{ background: "rgb(237, 216, 154)" }}>
+                💡 Clique aqui para aprender a fazer uma renda em casa hoje mesmo!
+            </a>       
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <h3>
+              <b>1. Venda de Produtos Digitais: Ganhe Dinheiro Enquanto Dorme!</b>
+            </h3>
+            <p>
+              Imagine criar algo uma vez e lucrar com isso para sempre. Produtos digitais, como e-books, cursos online e templates, 
+              permitem que você gere renda passiva.
+            </p>
+            <Image 
+              className="rounded-md" 
+              src="/pexels-ketut-subiyanto-4474019.jpg" 
+              alt=""
+              width={800}
+              height={600}
+              priority
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <ul>
+              <li>
+                  <b>Por que vale a pena?</b>
+                  <ul>
+                    <li>Você só precisa criar o produto uma vez.</li>
+                    <li>Ele pode ser vendido infinitamente, sem custos adicionais.</li>
+                  </ul>
+              </li>
+              <li>
+                  <b>O que criar?</b>
+                  <ul>
+                    <li>E-books com guias práticos.</li>
+                    <li>Planilhas para organização pessoal.</li>
+                    <li>Templates para designers ou empresários.</li>
+                  </ul>
+              </li>
+            </ul>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
+                  💡  Dica: Use ferramentas como Canva para criar seus 
+                  <br />
+                  materiais e plataformas como Hotmart ou Kiwify para vendê-los.
+            </a> 
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <h3>2. Marketing de Afiliados: Lucre Promovendo Produtos de Outras Pessoas</h3>
+            <p>
+              O marketing de afiliados é uma maneira simples de ganhar dinheiro sem precisar criar seu próprio produto.
+            </p>
+            <Image 
+              className="rounded-md" 
+              src="/pexels-mikael-blomkvist-6476584.jpg" 
+              alt=""
+              width={800}
+              height={600}
+              priority
+            />
+            <ul>
+                <li><b>Como funciona?</b> Você se cadastra em programas de afiliados, divulga links de produtos e ganha comissão por cada venda realizada.</li>
+                <li><b>Onde divulgar?</b>
+                    <ul>
+                        <li>Redes sociais: Instagram, TikTok e Facebook.</li>
+                        <li>Blogs ou sites pessoais.</li>
+                        <li>YouTube, criando reviews de produtos.</li>
+                    </ul>
+                </li>
+            </ul>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
+                💡  Dica: Escolha produtos alinhados ao seu público-alvo e ofereça conteúdos que ajudem a resolver problemas reais.
+            </a>
+            <a
+                href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+                className=" text-neutral-600 rounded-md p-2 mt-2" style={{ background: "rgb(237, 216, 154)" }}>
+            💡 Clique aqui para aprender a fazer uma renda em casa hoje mesmo!
+            </a>
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <h3>3. Criação de Conteúdo no YouTube ou Redes Sociais</h3>
+            <p>
+              Se você adora compartilhar conhecimento, criar vídeos ou interagir com o público, plataformas como YouTube, 
+              TikTok e Instagram podem se tornar grandes fontes de renda.
+            </p>
+            <Image 
+              className="rounded-md" 
+              src="/pexels-ron-lach-8360441.jpg" 
+              alt=""
+              width={800}
+              height={600}
+              priority
+            />
+            <ul>
+                <li><b>Como ganhar dinheiro?</b>
+                    <ul>
+                        <li>Parcerias com marcas.</li>
+                        <li>Monetização por anúncios no YouTube.</li>
+                        <li>Venda de produtos próprios ou de afiliados.</li>
+                    </ul>
+                </li>
+                <li><b>Que tipo de conteúdo criar?</b>
+                    <ul>
+                        <li>Tutoriais: ensine algo útil.</li>
+                        <li>Vlogs: compartilhe sua rotina de forma criativa.</li>
+                        <li>Dicas rápidas: como receitas, organização ou moda.</li>
+                    </ul>
+                </li>
+                <li><b>Ferramentas úteis:</b> Um celular e aplicativos como CapCut para edição de vídeos já são suficientes para começar!</li>
+            </ul>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
+                💡  Dica: Consistência é a chave. Postar regularmente e interagir com seu público ajudam a crescer mais rápido.
+            </a> 
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <h3>4. Trabalhos como Freelancer: Transforme Habilidades em Renda</h3>
+            <p>
+              Se você possui habilidades como design, escrita, programação, tradução ou edição de vídeo, pode oferecer seus serviços online.
+            </p>
+            <Image 
+              className="rounded-md" 
+              src="/pexels-tima-miroshnichenko-5198239.jpg" 
+              alt=""
+              width={800}
+              height={600}
+              priority
+            />
+            <ul>
+                <li><b>Onde encontrar clientes?</b> Plataformas como Fiverr, Workana e Upwork conectam freelancers a clientes do mundo todo.</li>
+                <li><b>O que oferecer?</b>
+                    <ul>
+                        <li>Criação de logotipos.</li>
+                        <li>Traduções de textos.</li>
+                        <li>Gerenciamento de redes sociais.</li>
+                    </ul>
+                </li>
+            </ul>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
+                💡  Dica: Monte um portfólio simples com exemplos de trabalhos e esteja aberto a negociações iniciais para ganhar experiência.
+            </a> 
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <h3>5. Lojas Online e Dropshipping: Venda sem Estoque</h3>
+            <p>
+              Criar uma loja virtual é uma das formas mais populares de ganhar dinheiro online. O modelo dropshipping é ideal para iniciantes, 
+              pois você não precisa investir em estoque.
+            </p>
+            <Image 
+              className="rounded-md" 
+              src="/pexels-marcial-comeron-177639337-11952301.jpg" 
+              alt=""
+              width={800}
+              height={600}
+              priority
+            />
+            <ul>
+                <li><b>Como funciona?</b> Você vende produtos diretamente do fornecedor para o cliente. Seu papel é gerenciar a loja e divulgar os itens.</li>
+                <li><b>Ferramentas úteis:</b>
+                    <ul>
+                        <li>Plataformas como Shopify ou Loja Integrada.</li>
+                        <li>Anúncios no Facebook ou Instagram para atrair clientes.</li>
+                    </ul>
+                </li>
+                <li><b>O que vender?</b> Produtos em alta demanda, como itens de moda, tecnologia ou decoração.</li>
+            </ul>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
+                💡  Dica: Comece com nichos específicos. Quanto mais segmentado, mais fácil conquistar clientes fiéis.
+            </a> 
+        </div>
+        <div className="border-t-[1px] mt-2 mb-2" style={{ borderColor: "rgb(182, 182, 182)" }}/>
+        <div className="p-3 flex flex-col">
+            <h3><b>Conclusão:</b> O Primeiro Passo é o Mais Importante</h3>
+            <p>
+              Ganhar dinheiro online nunca foi tão acessível. O segredo está em escolher uma ideia, começar com o que você tem e ajustar ao longo do caminho.
+            </p>
+            <br />
+            <b>Pronto para transformar a internet em sua principal aliada? 🚀</b>
+            <a
+              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
+                💡 Clique aqui para aprender a fazer uma renda em casa hoje mesmo!
+            </a>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
