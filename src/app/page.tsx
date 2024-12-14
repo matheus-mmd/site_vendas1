@@ -28,7 +28,7 @@ export default function Home() {
               para começar a ganhar dinheiro online hoje mesmo!
             </p>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2" style={{ background: "rgb(237, 216, 154)" }}>
                 💡 Clique aqui para aprender a fazer uma renda em casa hoje mesmo!
             </a>       
@@ -68,7 +68,7 @@ export default function Home() {
               </li>
             </ul>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
                   💡  Dica: Use ferramentas como Canva para criar seus 
                   <br />
@@ -100,12 +100,12 @@ export default function Home() {
                 </li>
             </ul>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
                 💡  Dica: Escolha produtos alinhados ao seu público-alvo e ofereça conteúdos que ajudem a resolver problemas reais.
             </a>
             <a
-                href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+                href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
                 className=" text-neutral-600 rounded-md p-2 mt-2" style={{ background: "rgb(237, 216, 154)" }}>
             💡 Clique aqui para aprender a fazer uma renda em casa hoje mesmo!
             </a>
@@ -143,7 +143,7 @@ export default function Home() {
                 <li><b>Ferramentas úteis:</b> Um celular e aplicativos como CapCut para edição de vídeos já são suficientes para começar!</li>
             </ul>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
                 💡  Dica: Consistência é a chave. Postar regularmente e interagir com seu público ajudam a crescer mais rápido.
             </a> 
@@ -173,7 +173,7 @@ export default function Home() {
                 </li>
             </ul>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
                 💡  Dica: Monte um portfólio simples com exemplos de trabalhos e esteja aberto a negociações iniciais para ganhar experiência.
             </a> 
@@ -204,7 +204,7 @@ export default function Home() {
                 <li><b>O que vender?</b> Produtos em alta demanda, como itens de moda, tecnologia ou decoração.</li>
             </ul>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
                 💡  Dica: Comece com nichos específicos. Quanto mais segmentado, mais fácil conquistar clientes fiéis.
             </a> 
@@ -218,7 +218,7 @@ export default function Home() {
             <br />
             <b>Pronto para transformar a internet em sua principal aliada? 🚀</b>
             <a
-              href="https://kiwify.app/omIfoVi?afid=ZXI5AS4r" 
+              href="https://pay.kiwify.com.br/sUqnazH?afid=ZXI5AS4r" 
               className=" text-neutral-600 rounded-md p-2 " style={{ background: "rgb(237, 216, 154)" }}>
                 💡 Clique aqui para aprender a fazer uma renda em casa hoje mesmo!
             </a>
